@@ -1,6 +1,6 @@
 package br.com.mariojp.solid.ocp;
 
-public class RegularDiscount implements I_Discount {
+public class RegularDiscount implements iDiscount{
 
     @Override
     public double apply(double amount) {
